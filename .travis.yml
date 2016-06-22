@@ -1,0 +1,12 @@
+sudo: required
+
+
+services:
+  - docker
+
+env:
+  global:
+    - COMMIT=${TRAVIS_COMMIT::8}
+
+script:
+  - docker build -f Dockerfile yyolk/aws-cli:$COMMIT .
