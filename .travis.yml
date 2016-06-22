@@ -9,4 +9,4 @@ env:
     - COMMIT=${TRAVIS_COMMIT::8}
 
 script:
-  - docker build -f Dockerfile yyolk/aws-cli:$COMMIT .
+  - docker build -f Dockerfile -t yyolk/aws-cli:$COMMIT .
