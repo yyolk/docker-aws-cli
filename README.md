@@ -1,4 +1,4 @@
-# yyolk/aws-cli 
+# yyolk/aws-cli [![Build Status](https://travis-ci.org/yyolk/docker-aws-cli.svg?branch=master)](https://travis-ci.org/yyolk/docker-aws-cli)
 
 Small'ish (`75.58 MB`) Docker image to work with the AWS CLI.
 
